@@ -6,7 +6,8 @@
     <Nullable>enable</Nullable>
     <!-- NuGet package metadata -->
     <PackageId>BootstrapIconsForDotNet</PackageId>
-    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.2</Version>
     <Authors>Lucian Bumb</Authors>
     <Company>Lucian Bumb</Company>
     <Description>
@@ -38,6 +39,9 @@
     <!-- License file -->
     <None Include="LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <!-- Ensure the README.md is part of the package -->
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
 
