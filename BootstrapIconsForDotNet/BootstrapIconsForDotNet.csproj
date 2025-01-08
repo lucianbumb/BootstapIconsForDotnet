@@ -8,15 +8,20 @@
     <PackageId>BootstrapIconsForDotNet</PackageId>
     <Version>1.0.0</Version>
     <Authors>Lucian Bumb</Authors>
-    <Company>YourCompanyName</Company>
-    <Description>A library containing over 2000 SVG Bootstrap icons for use in .NET applications.</Description>
-    <PackageTags>Icons;Bootstrap;SVG;.NET</PackageTags>
+    <Company>Lucian Bumb</Company>
+    <Description>
+      A library containing over 2000 SVG Bootstrap icons for use in .NET applications.
+      Includes icons from Bootstrap Icons (https://icons.getbootstrap.com/), 
+      licensed under the MIT License (https://github.com/twbs/bootstrap/blob/main/LICENSE).
+    </Description>
+    <PackageTags>Icons;Bootstrap;SVG;.NET;LicenseLink=https://github.com/twbs/bootstrap/blob/main/LICENSE</PackageTags>
+
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/YourRepo/BootstrapIconsForDotNet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lucianbumb/BootstapIconsForDotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Copyright>Copyright © 2025 Lucian Bumb</Copyright>
     <Summary>Easy-to-use Bootstrap icons in .NET web applications.</Summary>
-    <PackageProjectUrl>https://github.com/YourRepo/BootstrapIconsForDotNet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/lucianbumb/BootstapIconsForDotnet</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <!-- Provide a relative path to your package icon -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
